@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            
+            /* 
+            Medidas Absolutas 
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+
+            16px = 1em (geralmente)
+
+            x px = x/16 em
+
+            11px = 0.6875em
+
+            */
+        }
+
+        h1 {
+
+            /*  shorthand font
+
+            font-family: 'Work Sans', sans-serif;
+            font-size: 3em;
+            font-weight: bolder;
+            font-style: italic;
+
+            podendo simplificar para */
+
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, nobis quos nam doloribus aliquid quasi odit pariatur iste quia eveniet, animi eligendi eos architecto id illum tempore voluptatum provident ipsum.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque enim, et in ratione saepe reprehenderit doloremque culpa illo quo unde voluptate accusamus. Ipsum quam repudiandae, distinctio doloremque fugiat necessitatibus perferendis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit aut deleniti maxime reprehenderit. Nostrum a ipsum nulla inventore saepe officia natus magnam eos, earum mollitia id reprehenderit rem quam. Fuga.</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam suscipit, quo error ipsam corporis recusandae neque excepturi culpa, animi sunt amet debitis fugit pariatur aliquam laudantium odit non esse alias.<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum necessitatibus tempore est, molestiae sint illo aliquid cum beatae culpa labore, laudantium delectus nostrum voluptatem iure reiciendis, corporis fugit. Odit, ab.</p>
+</body>
+</html>

@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+* {
+    
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #18617E, #2188A1);
+}
+
+main {
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    font-family: "Monoton", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.678em;
+    color: #18617e;
+    background-color: rgba(33, 135, 161, 0.250);
+    border-radius: 7px;
+}
+
+h2 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.815em;
+    color: rgb(33, 136, 161);
+    background-color: rgba(183, 183, 203, 0.250);
+    border-radius: 7px;
+}
+
+p {
+    font-family:'Courier New', Courier, monospace;
+}

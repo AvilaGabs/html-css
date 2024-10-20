@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo Vídeos Hospedados Localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video width="560" poster="imagens/thumb-praia-rj.png" controls autoplay loop>
+        <source src="midia/praia-rj.mp4" type="video/mp4">
+        <source src="midia/praia-rj.mkv" type="video/mp4">
+        <source src="midia/praia-rj.webm" type="video/webm">
+        <source src="midia/praia-rj.ogv" type="video/ogv">
+        <p>Seu navegador não tem Compatibilidade com reprodução de vídeos.</p>
+    </video>
+    <h1>Inserindo Vídeos do Youtube</h1>
+    <p>Este vídeo está hospedado no Youtube.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QLrabsx4U40?si=98Yle0eu3G1H48WT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h1>Inserindo Vídeos do Vimeo</h1>
+    <p>Esta vídeo está hospedado no Vimeo.</p>
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/153187817?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="2016 Animation Reel"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+</body>
+</html>
