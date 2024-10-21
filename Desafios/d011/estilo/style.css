@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+div#fora {
+    background-image: url('../imagens/espaco.jpg') center center;
+    position: relative;
+}
+
+div#dentro {
+    background-image: url('../imagens/astronauta.png');
+    position: absolute;
+}
