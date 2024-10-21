@@ -35,11 +35,10 @@ Segue abaixo lista de exercícios feitas por mim:
 <a href="https://avilagabs.github.io/html-css/Exercicios/ex009/index.html" target="_blank">Executar o Exercício 009</a></li>
 
 <li>Trabalhando com Links<br>
-<a href="https://avilagabs.github.io/html-css/Exercicios/ex010/index.html" target="_blank">Executar o Exercício 010</a><br>
-<a href="https://avilagabs.github.io/html-css/Exercicios/ex010/pag002.html" target="_blank">Executar a
- Segunda Página do Exercício 010</a><br>
+<a href="https://avilagabs.github.io/html-css/Exercicios/ex010/index.html" target="_blank">Executar o Exercício 010 - Principal</a><br>
+<a href="https://avilagabs.github.io/html-css/Exercicios/ex010/pag002.html" target="_blank">Executar o Exercício 010 - Página 02</a><br>
 <a href="https://avilagabs.github.io/html-css/Exercicios/ex010/noticias/pag003.html" target="_blank">
-Executar a Terceira Página do Exercício 010</a></li>
+Executar o Exercício 010 - Página 03</a></li>
 
 <li>Imagens Dinâmicas<br>
 <a href="https://avilagabs.github.io/html-css/Exercicios/ex011/index.html" target="_blank">Executar o Exercício 011</a></li>
@@ -54,9 +53,8 @@ Executar a Terceira Página do Exercício 010</a></li>
 <a href="https://avilagabs.github.io/html-css/Exercicios/ex014/index.html" target="_blank">Executar o Exercício 014</a></li>
 
 <li>Estilos Estilos Externos<br>
-<a href="https://avilagabs.github.io/html-css/Exercicios/ex015/index.html" target="_blank">Executar o Exercício 015</a><br>
-<a href="https://avilagabs.github.io/html-css/Exercicios/ex015/pag002.html" target="_blank">Executar a 
-Segunda Página do Exercício 015</a></li>
+<a href="https://avilagabs.github.io/html-css/Exercicios/ex015/index.html" target="_blank">Executar o Exercício 015 - Principal</a><br>
+<a href="https://avilagabs.github.io/html-css/Exercicios/ex015/pag002.html" target="_blank">Executar o Exercício 015 - Página 2</a></li>
 
 <li>Cores em CSS<br>
 <a href="https://avilagabs.github.io/html-css/Exercicios/ex016/cor01.html" target="_blank">Executar o Exercício 016 - Cores</a><br>
