@@ -15,7 +15,50 @@ font-weight: 400;
 font-style: normal;
 */
 
+:root {
+    --cor0: #FFFFFF;
+    --cor1: #000000;
+
+    --fonte-destaque: "Passion One", sans-serif;
+    --fonte-texto: "Sriracha", cursive;
+    --fonte-detalhe: Verdana, sans-serif;
+}
+
 * {
     margin: 0px;
     padding: 0px;
+}
+
+a {
+    color: var(--cor0);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: var(--cor1);
+    color: var(--cor0);
+    padding: 50px 0px;
+}
+
+header > h1 {
+    font: normal bold 6em var(--fonte-destaque);
+    text-transform: uppercase; 
+    text-align: center;
+    word-spacing: 10px;
+    margin: auto;
+}
+
+header span {
+    font-size: 145%;
+}
+
+header > p {
+    font: normal 1em var(--fonte-detalhe);
+    text-align: center;
+    margin: auto;
 }
