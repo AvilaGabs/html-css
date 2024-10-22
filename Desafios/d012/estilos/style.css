@@ -4,22 +4,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
-
-/* 
-font-family: "Passion One", sans-serif;
-font-weight: 400;
-font-style: normal; 
-
-font-family: "Sriracha", cursive;
-font-weight: 400;
-font-style: normal;
-*/
-
 :root {
     --cor0 :  #FFFFFF;
     --cor1:   #000000;
-    --cor1s0: #00000080;
-    --cor1s1: #00000046;
+    --cor1s0: #000000bf;
+    --cor1s1: #00000080;
+    --cor1s2: #00000046;
 
     --fonte-destaque: "Passion One", sans-serif;
     --fonte-texto: "Sriracha", cursive;
@@ -65,6 +55,10 @@ header > p {
     margin: auto;
 }
 
+main {
+    min-width: 260px;
+}
+
 article {
     background-color: var(--cor0);
     padding: 20px;
@@ -81,18 +75,18 @@ article p {
     color: var(--cor0);
     background-color: var(--cor1);
     margin: 120px -20px 0px -20px;
-    box-shadow: inset 0px 8.5px 5px 0px var(--cor1s1);
+    box-shadow: inset 0px 8.5px 5px 0px var(--cor1s2);
     position: relative;
 }
 
 .imagem > p {
-    background-color: var(--cor1s0);    
+    background-color: var(--cor1s1);    
     width: 570px;
     position: absolute;
-    left 30px;
     top: 30px;
     padding: 5px;
     margin: 30px;
+    text-shadow: 1px 2px 3px var(--cor1s0);
 }
 
 #i1 {
@@ -101,4 +95,12 @@ article p {
 
 #i2 {
     background: var(--cor1) url('../imagens/background002.jpg') center top / cover no-repeat fixed;  
+}
+
+footer {
+    font: normal 1em var(--fonte-detalhe);
+    background-color: var(--cor1);
+    color: var(--cor0);
+    text-align: center;
+    padding: 10px;
 }
