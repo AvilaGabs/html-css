@@ -16,8 +16,10 @@ font-style: normal;
 */
 
 :root {
-    --cor0: #FFFFFF;
-    --cor1: #000000;
+    --cor0 :  #FFFFFF;
+    --cor1:   #000000;
+    --cor1s0: #00000080;
+    --cor1s1: #00000046;
 
     --fonte-destaque: "Passion One", sans-serif;
     --fonte-texto: "Sriracha", cursive;
@@ -61,4 +63,42 @@ header > p {
     font: normal 1em var(--fonte-detalhe);
     text-align: center;
     margin: auto;
+}
+
+article {
+    background-color: var(--cor0);
+    padding: 20px;
+}
+
+article p {
+    font: normal 3em var(--fonte-texto);
+    line-height: 2em;
+    padding: 40px 10px;
+}
+
+.imagem {
+    height: 805px;
+    color: var(--cor0);
+    background-color: var(--cor1);
+    margin: 120px -20px 0px -20px;
+    box-shadow: inset 0px 8.5px 5px 0px var(--cor1s1);
+    position: relative;
+}
+
+.imagem > p {
+    background-color: var(--cor1s0);    
+    width: 570px;
+    position: absolute;
+    left 30px;
+    top: 30px;
+    padding: 5px;
+    margin: 30px;
+}
+
+#i1 {
+    background: var(--cor1) url('../imagens/background001.jpg') center center / cover no-repeat fixed;  
+}
+
+#i2 {
+    background: var(--cor1) url('../imagens/background002.jpg') center top / cover no-repeat fixed;  
 }
