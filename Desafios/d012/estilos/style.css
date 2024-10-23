@@ -34,14 +34,14 @@ a:hover {
 header {
     background-color: var(--cor1);
     color: var(--cor0);
-    padding: 50px 0px;
+    padding: 48.5px 0px;
 }
 
 header > h1 {
-    font: normal bold 6em var(--fonte-destaque);
+    font: normal bold 7vw var(--fonte-destaque);
     text-transform: uppercase; 
     text-align: center;
-    word-spacing: 10px;
+    word-spacing: 7px;
     margin: auto;
 }
 
@@ -56,7 +56,7 @@ header > p {
 }
 
 main {
-    min-width: 260px;
+    width: 100vw;
 }
 
 article {
@@ -65,27 +65,28 @@ article {
 }
 
 article p {
-    font: normal 3em var(--fonte-texto);
+    font: normal 3.5vw var(--fonte-texto);
     line-height: 2em;
     padding: 40px 10px;
 }
 
 .imagem {
-    height: 805px;
+    height: 76vw;
     color: var(--cor0);
     background-color: var(--cor1);
-    margin: 120px -20px 0px -20px;
+    margin: 55px -20px 0px -20px;
     box-shadow: inset 0px 8.5px 5px 0px var(--cor1s2);
     position: relative;
 }
 
 .imagem > p {
     background-color: var(--cor1s1);    
-    width: 570px;
+    width: 41.5vw;
     position: absolute;
-    top: 30px;
-    padding: 5px;
-    margin: 30px;
+    top: 50%;
+    transform: translate( 15%, -50%);
+    padding: 5px 0px 5px 5px;
+    border: 1px solid var(--cor1s2);
     text-shadow: 1px 2px 3px var(--cor1s0);
 }
 
@@ -94,7 +95,7 @@ article p {
 }
 
 #i2 {
-    background: var(--cor1) url('../imagens/background002.jpg') center top / cover no-repeat fixed;  
+    background: var(--cor1) url('../imagens/background002.jpg') left top / cover no-repeat fixed;  
 }
 
 footer {
