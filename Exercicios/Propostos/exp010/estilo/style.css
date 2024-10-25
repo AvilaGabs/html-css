@@ -1,2 +1,33 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+/* font-family: "Bungee", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+/* font-family: "Kurale", serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* font-family: "Lato", sans-serif; */
+
+:root {
+    --cor0:   #FFFFFF;
+    --cor1:   #EBCAB3;
+    --cor2:   #EBC465;
+    --cor3:   #EBB465;
+    --cor4:   #EB9D65;
+    --cor5:   #EB8565;
+    --cor6:   #EB6E65;
+    --cor7:   #000000;
+    --cor7s0: #0000006b;
+    --cor7s1: #00000050;
+    --cor7s2: #00000036;
+
+    --fonte-header: "Bungee", sans-serif;
+    --fonte-destaque: "Kurale", serif;
+    --fonte-padrao: "Lato", Arial, Verdana, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}

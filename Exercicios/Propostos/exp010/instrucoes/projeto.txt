@@ -40,10 +40,15 @@ Faça parte dessa transformação e comece agora a ganhar com o que antes era s�
 
 Site criado por Gabriel Avila para o CursoemVídeo
 
-pré cores:
-#EB8565
-#EB6E65
-#EB9D65
-#EBB465
-#EBC465
-#EBCAB3
+Versão 1
+    --cor0:   #FFFFFF;
+    --cor1:   #EBCAB3;
+    --cor2:   #EBC465;
+    --cor3:   #EBB465;
+    --cor4:   #EB9D65;
+    --cor5:   #EB8565;
+    --cor6:   #EB6E65;
+    --cor7:   #000000;
+    --cor7s0: #0000006b;
+    --cor7s1: #00000050;
+    --cor7s2: #00000036;
