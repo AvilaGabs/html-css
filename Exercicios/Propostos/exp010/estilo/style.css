@@ -31,3 +31,26 @@
     margin: 0px;
     padding: 0px;
 }
+
+body {
+    background-color: var(--cor1);
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor5), var(--cor3), var(--cor6));
+}
+
+header > h1 {
+    font: bold 50vw var(--fonte-header);
+    padding: 30px;
+}
+
+header > p {
+    font-size: 20vw;
+    padding: 10px;
+}
+
+nav {
+    background-color: var(--cor6);
+}
