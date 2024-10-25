@@ -39,3 +39,11 @@ Vender bitucas é fácil, lucrativo e benéfico para todos!
 Faça parte dessa transformação e comece agora a ganhar com o que antes era só desperdício.
 
 Site criado por Gabriel Avila para o CursoemVídeo
+
+pré cores:
+#EB8565
+#EB6E65
+#EB9D65
+#EBB465
+#EBC465
+#EBCAB3
