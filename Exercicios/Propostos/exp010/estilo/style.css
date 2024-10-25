@@ -39,18 +39,34 @@ body {
 
 header {
     background-image: linear-gradient(to bottom, var(--cor5), var(--cor3), var(--cor6));
+    text-align: center;
+    text-shadow: 1px 1px 2px var(--cor7s2);
 }
 
 header > h1 {
-    font: bold 50vw var(--fonte-header);
-    padding: 30px;
+    font: bold 6vw var(--fonte-header);
+    padding: 50px 0px 5px 0px;
 }
 
 header > p {
     font-size: 20vw;
-    padding: 10px;
+    padding-bottom: 20px;
 }
 
 nav {
     background-color: var(--cor6);
+}
+
+nav > a {
+    background-color: var(--cor2);
+    font-weight: bold;
+    color: var(--cor5);
+    text-decoration: none;
+    transition-duration: 0.423s;
+}
+
+nav > a:hover {
+    background-color: var(--cor5);
+    color: var(--cor2);
+    text-decoration: underline;
 }
