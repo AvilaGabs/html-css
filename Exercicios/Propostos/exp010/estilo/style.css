@@ -80,6 +80,11 @@ main {
     margin: auto;
 }
 
+.imgesq {
+    display: flex;
+    width: 100%;
+}
+
 section {
     display: flex;
     padding: 20px;
@@ -105,10 +110,15 @@ section h2 {
     font: bold 2.5vw var(--fonte-destaque);
 }
 
-div {
-    width: 50vh;
+div.imgesq {
+    width: 65%;
     height: 80vh;
     background-color: var(--cor7);
+}
+
+article.imgesq {
+    width: 35%;
+    padding: 20px;
 }
 
 footer {
