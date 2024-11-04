@@ -85,6 +85,28 @@ section {
     padding: 20px;
 }
 
+section h1 {
+    font: bold 3.9vw var(--fonte-destaque);
+}
+
+section > div {
+    width: 65%;
+    height: 80vh;
+    background-color: var(--cor7);
+}
+
+section > article {
+    width: 35%;
+    padding: 20px;
+    margin: auto;
+    line-height: 1.8em;
+    text-align: justify;
+}
+
+section h2 {
+    font: bold 3.25vw var(--fonte-destaque);
+}
+
 section.central {
     text-align: center;
 }
@@ -94,29 +116,9 @@ section.imgesq {
     max-width: 1000px;
 }
 
-section.imgesq > div {
-    width: 65%;
-    height: 80vh;
-    background-color: var(--cor7);
-}
-
-
-section.imgesq > article {
-    width: 35%;
-    padding: 20px;
-    margin: auto;
-}
-
 section.imgdir {
     text-align: left;
-}
-
-section h1 {
-    font: bold 3.5vw var(--fonte-destaque);
-}
-
-section h2 {
-    font: bold 2.5vw var(--fonte-destaque);
+    max-width: 1000px;
 }
 
 footer {
