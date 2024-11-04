@@ -45,12 +45,12 @@ header {
 }
 
 header > h1 {
-    font: normal bold 6vw var(--fonte-header);
+    font: normal bold min(6vw, 50px) var(--fonte-header);
     padding: 50px 0px 5px 0px;
 }
 
 header span {
-    font-size: 145%;
+    font-size: 130%;
 }
 
 header > p {
@@ -86,7 +86,7 @@ main {
 
 section {
     display: flex;
-    padding: 20px;
+    padding: 0px 0px 50px 0px;
 }
 
 section h1 {
