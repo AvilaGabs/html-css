@@ -86,7 +86,7 @@ main {
 
 section {
     display: flex;
-    padding: 0px 10px 50px 10px;
+    padding: 50px 2px 50px 2px;
 }
 
 section h1 {
@@ -101,8 +101,10 @@ article#central {
 }
 
 section > div {
-    width: 45vw;
+    width: 65vw;
+    min-height: 50vh;    
     background-color: var(--cor7);
+    box-shadow: inset 0px 0px 5px 0px var(--cor8s2);
 }
 
 section > article {
@@ -121,6 +123,13 @@ section h2 {
 }
 
 section.central {
+    margin: auto;
+    line-height: 1.8;
+    font-size: 2.5vh;
+    text-align: center;
+}
+
+section.central p {
     text-align: center;
 }
 
@@ -138,6 +147,18 @@ aside.box {
     width: 80vw;
     background-color: var(--cor3);
     display: flexbox;
+}
+
+#img1 {
+    background: var(--cor1) url('../imagens/beneficio-financeiro-full.jpg') center bottom / cover no-repeat fixed;  
+}
+
+#img2 {
+    background: var(--cor1) url('../imagens/impacto-ambiental4-full.jpg') center center / cover no-repeat fixed;  
+}
+
+#img3 {
+    background: var(--cor1) url('../imagens/projeto-social2-full.jpg') -300px center / cover no-repeat fixed;  
 }
 
 footer {
