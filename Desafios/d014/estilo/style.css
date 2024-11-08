@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead, tfoot, tr.media {
+    background-color: gray;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+tbody th {
+    font-weight: bold;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+td.materia {
+    text-align: right;
+}
+
+td.nota {
+    text-align: center;
+}
