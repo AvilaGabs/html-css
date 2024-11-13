@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        #ignoutt {
+            display: none;
+        }
+
+        #ignoutr:checked + label + #ignoutt {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Segundo Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Gênero</legend>
+            <input type="radio" name="genero" id="ignmas" value="mas"> <label for="ignmas">Masculino</label><br>
+            <input type="radio" name="genero" id="ignfem" value="fem"> <label for="ignfem">Feminino</label><br>
+            <input type="radio" name="genero" id="ignnao" value="nao" checked> <label for="ignnao">Prefiro não dizer</label><br>
+            <input type="radio" name="genero" id="ignoutr" value="out"> <label for="ignoutr">Outro </label> <input type="text" name="gnout" id="ignoutt" placeholder="Especifique">
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="esbas" id="iesbas" checked> <label for="iesbas">Basquete</label><br>
+            <input type="checkbox" name="esfut" id="iesfut" checked> <label for="iesfut">Futebol</label><br>
+            <input type="checkbox" name="esnat" id="iesnat"> <label for="iesnat">Natação</label><br>
+            <input type="checkbox" name="esten" id="iesten"> <label for="iesten">Tênis</label>
+        </fieldset>        
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
