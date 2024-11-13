@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quarto Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iest">Estado: </label>
+            <select name="est" id="iest">
+                <option value="esc" selected>--- Escolha ---</option>
+                <optgroup label="Norte">
+                    <option value="AC">Acre</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="PA">Pará</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="TO">Tocantins</option>
+                </optgroup>
+                <optgroup label="Nordeste">
+                    <option value="AL">Alagoas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="SE">Sergipe</option>
+                </optgroup>
+                <optgroup label="Centro-Oeste">
+                    <option value="DF">Distrito Federal</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                </optgroup>
+                <optgroup label="Sudeste">
+                    <option value="ES">Espírito Santo</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+                <optgroup label="Sul">
+                    <option value="PR">Paraná</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="SC">Santa Catarina</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão: </label>
+            <input type="text" name="Prof" id="iprof" list="listprof" placeholder="Escreva ou Escolha">
+            <datalist id="listprof">
+                <option datadisplay="Advogado" value="ADV"></option>
+                <option value="ADM">Administrador</option>
+                <option value="AGR">Agrônomo</option>
+                <option value="ASI">Assistente Social</option>
+                <option value="ANA">Analista de Sistemas</option>
+                <option value="ARQ">Arquiteto</option>
+                <option value="AUT">Autônomo</option>
+                <option value="AUX">Auxiliar Administrativo</option>
+                <option value="AUXI">Auxiliar de Importação</option>
+                <option value="BIO">Biólogo</option>
+                <option value="BMD">Biomédico</option>
+                <option value="CAB">Cabeleireiro</option>
+                <option value="CHEF">Chef de Cozinha</option>
+                <option value="DENT">Cirurgião-Dentista</option>
+                <option value="CONT">Contador</option>
+                <option value="DEV">Desenvolvedor de Software</option>
+                <option value="DES">Designer Gráfico</option>
+                <option value="ECN">Economista</option>
+                <option value="ELE">Eletricista</option>
+                <option value="ENGC">Engenheiro Civil</option>
+                <option value="ENGA">Engenheiro de Alimentos</option>
+                <option value="ENGP">Engenheiro de Produção</option>
+                <option value="ENGE">Engenheiro Eletricista</option>
+                <option value="ENF">Enfermeiro</option>
+                <option value="EST">Estatístico</option>
+                <option value="FARM">Farmacêutico</option>
+                <option value="FIL">Filósofo</option>
+                <option value="FISI">Fisioterapeuta</option>
+                <option value="FOTO">Fotógrafo</option>
+                <option value="GAR">Garçom</option>
+                <option value="GEO">Geólogo</option>
+                <option value="JORN">Jornalista</option>
+                <option value="MED">Médico</option>
+                <option value="MEST">Mestre de Obras</option>
+                <option value="MOT">Motorista</option>
+                <option value="MUS">Músico</option>
+                <option value="NUT">Nutricionista</option>
+                <option value="PAD">Padre</option>
+                <option value="PED">Pedagogo</option>
+                <option value="POL">Policial</option>
+                <option value="PROF">Professor</option>
+                <option value="PSI">Psicólogo</option>
+                <option value="PUB">Publicitário</option>
+                <option value="QUIM">Químico</option>
+                <option value="REC">Recepcionista</option>
+                <option value="SEC">Secretário</option>
+                <option value="SEG">Segurança</option>
+                <option value="SOL">Soldador</option>
+                <option value="TECENF">Técnico de Enfermagem</option>
+                <option value="TECINF">Técnico em Informática</option>
+                <option value="VET">Veterinário</option>
+                <option value="WEB">Web Designer</option>
+                <option value="ZOO">Zootecnista</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem: </label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Sua mensagem aqui..."></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
