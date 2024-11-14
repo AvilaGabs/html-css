@@ -29,8 +29,13 @@ main {
 }
 
 #imagem {
+    height: 40vh;
     display: block;
     background-color: black;
+}
+
+#formul {
+    height: 44vh;
 }
 
 #formul > h1 {
@@ -50,6 +55,9 @@ main {
     color: white;
     margin: 7px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .material-symbols-outlined {
@@ -57,7 +65,9 @@ main {
     'FILL' 1,
     'wght' 400,
     'GRAD' 0,
-    'opsz' 24
+    'opsz' 30;
+    font-size: 30px !important;
+    margin: auto;
 }
 
 #inome, #isenha {
@@ -66,4 +76,37 @@ main {
     border-radius: 10px;
     font-size: 1em;
     text-indent: 5px;
+}
+
+#entrar, #esqueci {
+    width: 230px;
+    height: 46px;
+    margin: 7px;
+    border: 1px solid #53AAA7;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#entrar {
+    background-color: #53AAA7;
+    color: white;
+}
+
+#entrar:hover {
+    background-color: #2D6462;
+}
+
+#esqueci {
+    background-color: white;
+    color: #2D6482;
+    align-items: center;
+    gap: 5px;
+}
+
+#esqueci:hover {
+    background-color: #53DFF1;
+}
+
+#esqueci .material-symbols-outlined {
+    font-size: 12px;
 }
