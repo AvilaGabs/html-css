@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*
+Paleta de Cores
+Roxo: #5F2C82
+Verde: #53AAA7
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    background-color: #5F2C82;
+}
+
+main {
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 20px;
+}
+
+#form {
+    
+}
